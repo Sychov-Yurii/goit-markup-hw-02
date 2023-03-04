@@ -1,0 +1,14 @@
+.test-link {
+    color: black;
+}
+
+/* ---- ggg ------ */ 
+
+.test-link:hover, 
+.test-link:focus {
+    color: rgb(300, 0, 0,5);
+}
+
+.test-link:active {
+    color: teal;
+}
