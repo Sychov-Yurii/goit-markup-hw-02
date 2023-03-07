@@ -127,6 +127,19 @@ body {
     font-size: 36px;
     line-height: 1.1;
 }
+.section-our-team-tittle {
+    color: var(--Dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+.section-our-team-tittle-text
+{
+    color: var(--Text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
 
 /*  Button */
 
