@@ -29,9 +29,11 @@ White: #FFFFFF
 /*  background-color: #FFFFFF  */
 
 body {
+    font-family: roboto, sans-serif;
     background-color: var(--White);
     color: ;
-    font-family: roboto, sans-serif;
+    text
+    
 }
 
 .list {
