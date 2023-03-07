@@ -1,14 +1,174 @@
-.test-link {
-    color: black;
+/******************************** colors: 
+Pressed state #404BBF   Ocean
+Primary Brand #4D5AE5   Iris
+Dark #2E2F42            Navy Blue
+Success #31D0AA
+Text #434455            Slate
+Subtle Text #8E8F99
+Accent #E7E9FC          Cornflower          
+Light #F4F4FD           Cloud
+Modal overlay #2E2F42 
+Hero background #2E2F42 
+White: #FFFFFF
+*******************************************/
+
+:root {
+    --Primary-Brand-color: #4D5AE5;
+    --Pressed-state: #404BBF;
+    --Dark: #2E2F42;
+    --Success: #31D0AA;
+    --Text: #434455;
+    --Subtle-Text: #8E8F99;
+    --Accent: #E7E9FC;
+    --Light: #F4F4FD;
+    --Modal-overlay: #2E2F42;
+    --Hero-background: #2E2F42;
+    --White: #FFFFFF;
 }
 
-/* ---- ggg ------ */ 
+/*  background-color: #FFFFFF  */
 
-.test-link:hover, 
-.test-link:focus {
-    color: rgb(300, 0, 0,5);
+body {
+    background-color: var(--White);
+    color: ;
+    font-family: roboto, sans-serif;
 }
 
-.test-link:active {
-    color: teal;
+.list {
+    list-style: none;
+}
+
+/*  Logo  */
+
+.logo-Web {
+    color: var(--Primary-Brand-color);
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 2.47;
+}
+
+.logo-Studio {
+    color: var(--Dark);
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 2.47;
+}
+
+/*  Site nav  */
+
+.site-nav .link
+    {
+     color: var(--Dark);   
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 1.5;
+    }
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--Pressed-state)
+}
+
+.e-mail .link{
+    color: var(--Text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.e-mail .link:hover,
+.e-mail .link:focus {
+    color: var(--Pressed-state);
+}
+
+/*  Order Service  */
+
+.Order-Service {
+    color: var(--White);
+    background-color: var(--Dark);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+/*  Section  */
+
+.section-tittle {
+    color: var(--Dark);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+.setion-tittle-text {
+    color: var(--Text);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.section-info {
+    color: var(--Dark);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+
+}
+
+.section-our-team {
+    background-color:var(--Light);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.1;
+}
+
+/*  Button */
+
+.button {
+    color:var(--Primary-Brand-color);
+    background-color:var(--Light);
+}
+
+.button:hover,
+.button:focus 
+    {
+    color: var(--White);
+    background-color: var(--Pressed-state);
+
+}
+
+.button.primary {
+    background-color:var(--Primary-Brand-color);
+    color: var(--White);
+}
+
+.button.primary:hover,
+.button.primary:focus 
+    {
+    background-color: var(--Pressed-state);
+}
+
+/*  Footer */
+
+.footer {
+    background-color: var(--Dark);
+}
+.logo-text {
+    color: var(--Accent);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.logo-Studio-Footer {
+    color: var(--Light);
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.16;
 }
