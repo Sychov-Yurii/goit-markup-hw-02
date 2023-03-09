@@ -104,9 +104,28 @@ body {
     letter-spacing: 0.02em;
 }
 
-/*  Section 2 */
+.button.primary {
+    font-family: "Roboto", sans-serif;
+    color:var(--White);
+    background-color:var(--Light);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+}
 
-.section-tittle .list{
+.button.primary:hover,
+.button.primary:focus 
+    {
+    background-color: var(--Pressed-state);
+}
+
+
+
+/*  Section 22222222222222222222 */
+
+.section-about .list{
     color: var(--Dark);
     font-weight: 500;
     font-size: 56;
@@ -114,7 +133,7 @@ body {
     letter-spacing: 0.02em;
 }
 
-.section-text .list{
+.about-text .list{
     color: var(--Text);
     font-weight: 400;
     font-size: 16px;
@@ -173,22 +192,6 @@ body {
 
 }
 
-.button.primary {
-    font-family: "Roboto", sans-serif;
-    color:var(--White);
-    background-color:var(--Light);
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    cursor: pointer;
-}
-
-.button.primary:hover,
-.button.primary:focus 
-    {
-    background-color: var(--Pressed-state);
-}
 
 /*  Footer */
 
