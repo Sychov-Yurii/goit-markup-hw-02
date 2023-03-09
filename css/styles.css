@@ -60,12 +60,20 @@ body {
 
 /*  Site nav  */
 
+.link {
+    text-decoration: none
+}
+
+.address {
+    font-style: normal
+}
 .site-nav .link
     {
      color: var(--Dark);   
      font-weight: 500;
      font-size: 16px;
      line-height: 1.5;
+     letter-spacing: 0.02em;
     }
 .site-nav .link:hover, 
 .site-nav .link:focus {
