@@ -121,35 +121,28 @@ body {
     background-color: var(--Pressed-state);
 }
 
+/*  Section 2 */
 
+.list {
+    list-style: none;
+}
 
-/*  Section 22222222222222222222 */
+.zwei .list {
 
-.section-about .list{
-    color: var(--Dark);
+}
+
+.zwei-href .list{
+    color:var(--Dark);
     font-weight: 500;
-    font-size: 56;
-    line-height: 1.07;
+    font-size: 20px;
+    line-height: 1.2;
     letter-spacing: 0.02em;
 }
 
-.about-text .list{
-    color: var(--Text);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
-.section-info {
-    color: var(--Dark);
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.1;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+.zwei-text .list {
 
 }
+
 
 /*  Section 3 */
 
