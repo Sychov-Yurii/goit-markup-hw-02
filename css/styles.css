@@ -91,7 +91,7 @@ body {
     color: var(--Pressed-state);
 }
 
-/*  Order Service  */
+/*  SECTIOIN 1  ****** Order Service  */
 
 .order-service {
     color: var(--White);
@@ -104,9 +104,9 @@ body {
     letter-spacing: 0.02em;
 }
 
-/*  Section  */
+/*  Section 2 */
 
-.section-tittle {
+.section-tittle .list{
     color: var(--Dark);
     font-weight: 500;
     font-size: 56;
