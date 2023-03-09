@@ -29,11 +29,9 @@ White: #FFFFFF
 /*  background-color: #FFFFFF  */
 
 body {
-    font-family: 'roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: var(--White);
-    color: ;
-    text
-    
+    color: var(--Text);
 }
 
 .list {
@@ -44,10 +42,12 @@ body {
 
 .logo-web {
     color: var(--Primary-Brand-color);
-    font-family: Raleway;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
-    line-height: 2.47;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase
 }
 
 .logo-studio {
