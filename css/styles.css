@@ -123,13 +123,7 @@ body {
 
 /*  Section 2 */
 
-.list {
-    list-style: none;
-}
 
-.zwei .list {
-
-}
 
 .zwei-href .list{
     color:var(--Dark);
@@ -160,7 +154,7 @@ body {
     font-size: 20px;
     line-height: 1.2;
 }
-.section-our-team-tittle-text
+.section-our-team-text
 {
     color: var(--Text);
     font-weight: 400;
