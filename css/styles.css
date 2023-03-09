@@ -29,7 +29,7 @@ White: #FFFFFF
 /*  background-color: #FFFFFF  */
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto", sans-serif;
     background-color: var(--White);
     color: var(--Text);
 }
@@ -93,7 +93,7 @@ body {
 
 /*  Order Service  */
 
-.Order-Service {
+.order-service {
     color: var(--White);
     background-color: var(--Dark);
     font-style: normal;
@@ -154,8 +154,10 @@ body {
 /*  Button */
 
 .button {
+    font-family: "Roboto", sans-serif;
     color:var(--Primary-Brand-color);
     background-color:var(--Light);
+    font-weight: 500
 }
 
 .button:hover,
@@ -167,8 +169,14 @@ body {
 }
 
 .button.primary {
-    background-color:var(--Primary-Brand-color);
-    color: var(--White);
+    font-family: "Roboto", sans-serif;
+    color:var(--Primary-Brand-color);
+    background-color:var(--Light);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer
 }
 
 .button.primary:hover,
