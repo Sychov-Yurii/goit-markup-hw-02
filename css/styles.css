@@ -132,29 +132,6 @@ body {
 /*4 Section*/
 .hero {
 }
-.hero-title {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
-    color: var(--NAVY-BLUE);
-}
-.hero-subtitle {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2;
-    letter-spacing: 0.02em;
-    color:var(--NAVY-BLUE);
-}
-
-.hero-text {
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:var(--SLATE);
-}
-
 /*footer*/
 .footer {
 }
