@@ -10,31 +10,31 @@
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
   </head>
-  <body class="page">
+  <body class="body" id="body">
     <!-- Header -->
-    <header class="page-header">
-      <nav>
-        <a class="logo-web" href="./index.html">WEB
+    <header class="header">
+      <nav class="header-nav list">
+        <a class="header-logo-web link" href="./index.html">WEB
           <span>            
-            <a class="logo-studio" href="./index.html">STUDIO</a>
+            <a class="header-logo-studio link" href="./index.html">STUDIO</a>
           </span>
         </a>
-        <ul class="site-nav list">
-          <li>
-            <a href="./index.html" class="link">Studio</a></li>
-          <li>
-            <a href="./portfolio.html" class="link">Portfolio</a></li>
-          <li>
-            <a href="" class="link">Contacts</a></li>
+        <ul class="header-list list link">
+          <li class="header-item">
+            <a class="header-link link" href="./index.html">Studio</a></li>
+          <li class="header-item">
+            <a class="header-link link" href="./portfolio.html">Portfolio</a></li>
+          <li class="header-item">
+            <a class="header-link link" href="">Contacts</a></li>
         </ul>
       </nav>
-        <address class="address">
+      <address>
           <ul class="list">
-            <li class="e-mail link">
-              <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <li>
+              <a class="header-mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li class="e-mail link">
-              <a class="link" href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <li>
+              <a class="header-tel" href="tel:+110001111111">+11 (000) 111-11-11</a>
             </li>
           </ul>
         </address>
@@ -42,45 +42,44 @@
     <!-- Main -->
     <main>
     <!-- Section 1 Order Service-->
-      <section>
-          <h1 class="order-service">Effective Solutions for Your Business
-            <button class="button primary" type="button">Order Service</button> 
+      <section class="order-service">
+          <h1>Effective Solutions for Your Business
+            <button class="order-button" type="button">Order Service</button> 
         </h1>
       </section>
     <!-- Section 2 Strategy-->
-      <section>
-        <h2 class="hero-title">Section 2</h2>
-        <ul>
+      <section class="strategy">
+        <ul class="list">
           <li>
-            <h3 class="hero">Strategy</h3>
-            <p class="hero-text">Our goal is to identify the business problem to walk away with the
+            <h3 class="strategy-title">Strategy</h3>
+            <p class="strategy-subtitle">Our goal is to identify the business problem to walk away with the
               perfect and creative solution.
             </p>
           </li>
           <li>
-            <h3 class="hero">Punctuality</h3>
-            <p class="hero-text">Bring the key message to the brand's audience for the best price
+            <h3 class="strategy-title">Punctuality</h3>
+            <p class="strategy-subtitle">Bring the key message to the brand's audience for the best price
               within the shortest possible time.
             </p>
           </li>
           <li>
-            <h3 class="hero">Diligence</h3>
-            <p class="hero-text">Research and confirm brands that present the strongest digital
+            <h3 class="strategy-title">Diligence</h3>
+            <p class="strategy-subtitle">Research and confirm brands that present the strongest digital
               growth opportunities and minimize risk.
             </p>
           </li>
           <li>
-            <h3 class="hero">Technologies</h3>
-            <p class="hero-text">Design practice focused on digital experiences. We bring forth a
+            <h3 class="strategy-title">Technologies</h3>
+            <p class="strategy-subtitle">Design practice focused on digital experiences. We bring forth a
               deep passion for problem-solving.
             </p>
           </li>
         </ul>
       </section>
       <!-- What are we doing -->
-      <section class="section">
-        <h2 class="section-info">What are we doing</h2>
-        <ul>
+      <section class="about">
+        <h2 class="about-info">What are we doing</h2>
+        <ul class="list">
           <li>
             <img src="./images/img-1.jpg" alt="img-1" width="360">
           </li>
@@ -93,29 +92,29 @@
         </ul>
       </section>
       <!-- Our Team-->
-      <div class="section-our-team">
+      <div class="hero">
       <section>
-        <h2 class="section-info">Our Team</h2>
-        <ul>
+        <h2 class="hero-title">Our Team</h2>
+        <ul class="list">
             <li>
                 <img src="./images/Team-card-1.jpg" alt="Team-card-1" width="264" >
-                <h3 class="section-our-team-tittle">Mark Guerrero</h3>
-                <p class="section-our-team-text">Product Designer</p>
+                <h3>Mark Guerrero</h3>
+                <p>Product Designer</p>
             </li>
             <li>
                 <img src="./images/Team-card-2.jpg" alt="Team-card-2" width="264" >
-                <h3 class="section-our-team-tittle">Tom Ford</h3>
-                <p class="section-our-team-text">Frontend Developer</p>
+                <h3>Tom Ford</h3>
+                <p>Frontend Developer</p>
             </li>
             <li>
                 <img src="./images/Team-card-3.jpg" alt="Team-card-3" width="264" >
-                <h3 class="section-our-team-tittle">Camila Garcia</h3>
-                <p class="section-our-team-text">Marketing</p>
+                <h3>Camila Garcia</h3>
+                <p>Marketing</p>
             </li>
             <li>
                 <img src="./images/Team-card-4.jpg" alt="Team-card-4" width="264" >
-                <h3 class="section-our-team-tittle">Daniel Wilson</h3>
-                <p class="section-our-team-text">UI Designer</p>
+                <h3>Daniel Wilson</h3>
+                <p>UI Designer</p>
             </li>
         </ul>
       </section>
@@ -123,13 +122,14 @@
     </main>        
     <!-- Footer -->
     <footer class="footer">
-          <a class="logo-web" href="./index.html">WEB</a>
+      <nav class="footer-nav">
+          <a class="footer-logo-web" href="./index.html">WEB</a>
           <span>            
-            <a class="logo-studio-footer" href="./index.html">STUDIO</a>
+            <a class="footer-logo-studio" href="./index.html">STUDIO</a>
           </span>
-              <a class="logo-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.
+              <a class="footer-logo-text">Increase the flow of customers and sales for your business with digital marketing & growth solutions.
               </a>
-          
+        </nav>
     </footer>
   </body>
 </html>
