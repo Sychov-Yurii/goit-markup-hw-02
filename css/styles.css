@@ -176,6 +176,7 @@ body {
 .header-tel {
 }
 /*1 Section*/
+
 .order-service {
     background-color:var(--NAVY-BLUE);
     font-size: 56px;
@@ -186,7 +187,7 @@ body {
 }
 /*buttons*/
 
-.heder-btn {
+.hedear-btn {
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
