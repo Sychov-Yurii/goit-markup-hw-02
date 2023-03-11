@@ -179,15 +179,17 @@ body {
 .order-service {
     background-color:var(--NAVY-BLUE);
 }
-.order-title {
+/*buttons*/
+
+.heder-btn {
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-/*buttons*/
-.order-button {
+
+.portfolio-btn {
 
     font-weight: 500;
     font-size: 16px;
@@ -234,7 +236,14 @@ body {
     color:var(--NAVY-BLUE);
 }
 /*4 Section*/
-
+.hero {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--NAVY-BLUE);
+}
 /*footer*/
 .footer {
     background-color:var(--NAVY-BLUE);
