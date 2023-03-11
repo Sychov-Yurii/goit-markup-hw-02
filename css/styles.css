@@ -159,7 +159,7 @@ body {
     color:var(--OCEAN);
 }
 
-.header-mail .list link {
+.header-mail link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
