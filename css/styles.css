@@ -192,12 +192,12 @@ body {
 }
 
 .portfolio-btn {
-
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color:var(--IRIS);
     cursor: pointer;
 }
 
@@ -243,5 +243,5 @@ body {
     color: #f4f4fd;
 }
 .footer-logo-text {
-    
+
 }
