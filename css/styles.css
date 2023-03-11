@@ -92,7 +92,7 @@ body {
     letter-spacing: 0.02em;
     color: #ffffff;
 }
-
+/*buttons*/
 .order-button {
 
     font-weight: 500;
@@ -102,6 +102,16 @@ body {
     color: #ffffff;
     cursor: pointer;
 }
+
+.portfolio-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color:var(--IRIS);
+    cursor: pointer;
+}
+
 /*2 Section*/
 .strategy {
     
