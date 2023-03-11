@@ -15,11 +15,11 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    color: #434455
+    color: #434455;
 }
 
 .link {
-    text-decoration: none
+    text-decoration: none;
 }
 
 .list {
@@ -45,7 +45,7 @@ body {
 }
 
 .header-logo-studio {
-    font-family: 'Raleway', sans-serif;;
+    font-family: 'Raleway', sans-serif;
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
@@ -83,8 +83,23 @@ body {
 }
 /*1 Section*/
 .order-service {
+    background-color:var(--NAVY-BLUE);
 }
+.order-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #ffffff;
+}
+
 .order-button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
 }
 /*2 Section*/
 .strategy {
