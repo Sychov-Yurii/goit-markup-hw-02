@@ -235,14 +235,6 @@ body {
 }
 /*4 Section*/
 
-.hero {
-    font-size: 36px;
-    line-height: 1.11;
-    text-align: center;
-    text-transform: capitalize;
-    color:var(--NAVY-BLUE);
-}
-
 /*footer*/
 .footer {
     background-color:var(--NAVY-BLUE);
