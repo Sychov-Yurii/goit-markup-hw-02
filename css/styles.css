@@ -156,7 +156,7 @@ body {
 }
 .header-link :hover,
 .header-link :focus {
-    color:var(--OCEAN);
+    color:#404bbf;
 }
 
 .header-mail {
@@ -170,7 +170,7 @@ body {
 
 .header-mail :hover,
 .header-mail :focus {
-    color: var(--OCEAN);
+    color: #404bbf;
 }
 /*1 Section*/
 .order-service {
