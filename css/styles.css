@@ -154,14 +154,12 @@ body {
     letter-spacing: 0.02em;
     color:var(--NAVY-BLUE);
 }
-.header-link :hover {
-     color:var(--OCEAN);
-}
+.header-link :hover,
 .header-link :focus {
     color:var(--OCEAN);
 }
 
-.header-mail .list .link {
+.header-mail .list link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -170,10 +168,7 @@ body {
     color:var(--SLATE);
 }
 
-.header-mail :hover {
-    color:var(--OCEAN);
-}
-
+.header-mail :hover,
 .header-mail :focus {
     color: var(--OCEAN);
 }
