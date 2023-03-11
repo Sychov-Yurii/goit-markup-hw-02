@@ -165,9 +165,11 @@ body {
     font-size: 16px;
     line-height: 24px;
 }
-.header-tel {
-}
+
 /*1 Section*/
+.order-service {
+    background-color:var(--NAVY-BLUE);
+}
 
 .order-title {
     background-color:var(--NAVY-BLUE);
