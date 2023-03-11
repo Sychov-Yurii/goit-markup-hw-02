@@ -154,18 +154,29 @@ body {
     letter-spacing: 0.02em;
     color:var(--NAVY-BLUE);
 }
-.header-link :hover, 
+.header-link :hover {
+     color:var(--OCEAN);
+}
 .header-link :focus {
     color:var(--OCEAN);
 }
 
-.header-mail .list{
+.header-mail .list .link {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--SLATE);
 }
 
+.header-mail :hover {
+    color:var(--OCEAN);
+}
+
+.header-mail :focus {
+    color: var(--OCEAN);
+}
 /*1 Section*/
 .order-service {
     background-color:var(--NAVY-BLUE);
