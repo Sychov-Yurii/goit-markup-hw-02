@@ -121,12 +121,7 @@ body {
 }
 
 /*header*/
-.header {
 
-}
-
-.header-nav {
-}
 .header-logo-web{
     font-family: 'Raleway', sans-serif;;
     font-style: normal;
@@ -151,10 +146,7 @@ body {
 .address {
     font-style: normal
 }
-.header-list {
-}
-.header-item {
-}
+
 .header-link .list {
     font-weight: 500;
     font-size: 16px;
@@ -208,9 +200,7 @@ body {
 }
 
 /*2 Section*/
-.strategy {
-    
-}
+
 .strategy-title {
     font-weight: 500;
     font-size: 20px;
@@ -225,8 +215,7 @@ body {
     color:var(--SLATE);
 }
 /*3 Section*/
-.about {
-}
+
 .about-info {
     font-size: 36px;
     line-height: 1.11;
@@ -247,8 +236,7 @@ body {
 .footer {
     background-color:var(--NAVY-BLUE);
 }
-.footer-nav {
-}
+
 .footer-logo-web .link .list{
     font-family: "Raleway", sans-serif,;
     font-weight: 800;
