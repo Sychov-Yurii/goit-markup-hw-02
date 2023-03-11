@@ -154,10 +154,10 @@ body {
     letter-spacing: 0.02em;
     color:var(--NAVY-BLUE);
 }
-.header-link :hover {
-    color: #404bbf;
+.header-link:hover {
+    color:#404bbf;
 }
-.header-link :focus {
+.header-link:focus {
     color:#404bbf;
 }
 
@@ -170,11 +170,11 @@ body {
     color:var(--SLATE);
 }
 
-.header-mail :hover {
-    color: #404bbf;
+.header-mail:hover {
+    color:#404bbf;
 }
-.header-mail :focus {
-    color: #404bbf;
+.header-mail:focus {
+    color:#404bbf;
 }
 /*1 Section*/
 .order-service {
